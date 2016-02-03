@@ -1,7 +1,8 @@
-for (var i = 1; i <= 30; i ++) {
+var answer = prompt("What's your age?");
+for (var i = 1; i <= answer; i ++) {
 
 	if (i % 3 === 0 && i % 5 === 0) {
-		console.log("FizzBuzz");
+		console.log("FizzBuzz")
 	} 
 	else if (i % 5 === 0) 
 		{console.log("Buzz")}
